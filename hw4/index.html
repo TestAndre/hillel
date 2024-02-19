@@ -1,51 +1,133 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>Домашка</title>
   </head>
   <body>
-    <div class="header">
-      <div class="container">
-        <div class="header-line">
-          <div class="nav">
-            <a class="navigation" href="#">Главная</a>
-            <a class="navigation" href="#">Топ песен</a>
-            <a class="navigation" href="#">Контакты</a>
-            <a class="navigation" href="#">Lorem</a>
-          </div>
-          <div class="phone">
-            <div class="phone-line">
-              <div class="phone.img">
-                <img src="phone.png" alt="phone" />
-              </div>
-              <div class="number">
-                <a class="num" href="#">+380-66-99-99-999</a>
-              </div>
+    <header>
+      <div class="header">
+        <div class="container">
+          <div class="header-line">
+            <div class="nav">
+              <a class="navigation" href="#">Главная</a>
+              <a class="navigation" href="#">Топ песен</a>
+              <a class="navigation" href="#">Контакты</a>
+              <a class="navigation" href="#">Lorem</a>
             </div>
-            <div class="phone-text">Можете связаться со мной</div>
-          </div>
-          <div class="header-content">
-            <div class="header-title">
-              Мой личный
-              <div class="header-top">Top 10</div>
-              <div class="header-top">Если что, я меломан</div>
-              <div class="header-bth">
-                <a href="#" class="header-button">Смотреть Топ</a>
+            <div class="phone">
+              <div class="phone-line">
+                <div class="phone.img">
+                  <img src="./Image/phone.png" alt="phone">
+                </div>
+                <div class="number">
+                  <a class="num" href="#">+380-66-99-99-999</a>
+                </div>
+              </div>
+              <div class="phone-text">Можете связаться со мной</div>
+            </div>
+            <div class="header-content">
+              <div class="header-title">
+                Мой личный
+                <div class="header-top">Top 3</div>
+                <div class="header-top">Если что, я меломан</div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </header>
+    <main>
+      <section class="card-section">
+        <div class="container-card">
+          <ul class="cards">
+            <li class="card">
+              <img src="./Image/neighbourhood.jpg" alt="foto" width="300" height="315">
+              <audio src="./Audio/The Neighbourhood – Sweater Weather.mp3" controls></audio>
+              <h1>Sweater Weather</h1>
+              <p class="text">
+                Песня поется от лица парня, который стоит перед любимой девушкой
+                и говорит с ней (ну или поет ей). Дело происходит, очевидно, на
+                пляже в Калифорнии. Он говорит, что он обычный человек, но все
+                же хочет держать мир в своих руках (то есть, достичь чего-то в
+                своей жизни).
+              </p>
+            </li>
+            <li class="card">
+              <img src="./Image/neighbourhood.jpg" alt="foto" width="300" height="315">
+              <audio src="./Audio/the-neighbourhood-softcore-mp3.mp3" controls></audio>
+              <h2>Softcore</h2>
+              <p class="text">
+                Текст песни The Neighbourhood «Softcore» логично читается так,
+                как будто адресатом будет вторая половинка вокалиста. При этом
+                следует отметить, что указанный человек теоретически может быть
+                еще одним действительно близким человеком в его жизни, например,
+                ребенком.
+              </p>
+            </li>
+            <li class="card">
+              <img src="./Image/neighbourhood.jpg" alt="foto" width="300" height="315">
+              <audio src="./Audio/The_Neighbourhood_-_Daddy_Issues.mp3" controls></audio>
+              <h3>Daddy Issues</h3>
+              <p class="text">
+                Взаимоотношения парня со своим отцом могут послужить объяснением
+                его настоящего характера и поведения , ясно , что если отец
+                по-настоящему любил сына , хоть и редко был с ним ласков , то
+                рано или поздно это сделает из мальчика настоящего мужчину , но
+                если отец груб без любви к своему ребенку , то это наоборот
+                будет причиной многочисленных комплексов мальчика в будущем .
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave"></div>
+      </div>
+      <ul class="social">
+        <li>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="./Image/facebook.jpg" alt="facebook" width="30" height="30"></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/" target="_blank">
+            <img src="./Image/twitter.png" alt="twitter" width="30" height="30"></a>
+        </li>
+        <li>
+          <a href="https://web.telegram.org/k/" target="_blank">
+            <img src="./Image/Telegram.webp" alt="Telegram" width="30" height="30"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="./Image/Instagram.webp" alt="Instagram" width="30" height="30"></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li>
+          <a href="#">Главная</a>
+        </li>
+        <li>
+          <a href="#">Топ песен</a>
+        </li>
+        <li>
+          <a href="#">Контакты</a>
+        </li>
+        <li>
+          <a href="#">Lorem</a>
+        </li>
+        <li>
+          <a href="#">Расположение</a>
+        </li>
+      </ul>
+      <p>©2024 by Andrew</p>
+    </footer>
   </body>
 </html>
