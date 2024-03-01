@@ -1,0 +1,315 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.header{
+    background-color: #000000;
+    margin-bottom: 58px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navigation{
+padding-top: 43px;
+padding-bottom: 45px;
+}
+.nav{
+    text-align: center;
+}
+.nav-item{
+    display: inline-block;
+    margin-right: 53px;
+}
+.color{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+}
+.paragraph{
+    display: inline-block;
+}
+.title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    width: 573px;
+    margin-bottom: 37px;
+    margin-right: 135px;
+    line-height: 87px;
+}
+.text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+    width: 530px;
+    margin-bottom: 46px;
+    line-height: 30px;
+}
+.box{
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+.input{
+    padding: 20px 57px;
+    border-radius: 50px 0px 0px 50px;
+    border: 3px solid black;
+    width: 281px;
+    height: 60px;
+}
+.button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    position: absolute;
+    text-transform: uppercase;
+    padding: 18.5px 19px;
+    color: white;
+    background-color: black;
+    border-radius: 0px 50px 50px 0px;
+    width: 110px;
+    height: 60px;
+}
+.img{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 482px;
+    height: 573px;
+}
+.bonus{
+    margin-top: 44px;
+    text-align: center;
+}
+.step{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 27px;
+    display: block;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.product{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 66px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+    width: 709px;
+    height: 91px;
+}
+.photo{
+    width: 297px;
+    height: 440px;
+    position: relative;
+    bottom: -71px;
+}
+.cash{
+    text-align: left;
+    background-color: #FCD0BA;
+    border-radius: 12px;
+    height: 511px;
+}
+.info{
+    display: inline-block;
+    margin-left: 54px;
+    margin-top: 71px;
+}
+.text-item{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.title-item{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 48px;
+    width: 301px;
+    height: 91px;
+    margin-bottom: 84px;
+    margin-top: 21px;
+}
+.mark{
+    margin-right: 19px;
+}
+.item{
+    margin-bottom: 30px;
+}
+.accept-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 7px;
+    line-height: 24px;
+    display: inline-block;
+    text-align: left;
+    width: 230px;
+    height: 23px;
+}
+.visa{
+    margin-top: 44px;
+    text-align: center;
+}
+.title-product{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 66px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+    width: 708px;
+    height: 134px;
+}
+.wrapper{
+    background-color: #CCD3E7;
+    height: 651px;
+    text-align: left;
+    border-radius: 12px;
+}
+.img-item{
+    width: 328px;
+    height: 498px;
+    position: relative;
+    bottom: -71px;
+}
+.info-card{
+    margin-left: 24px;
+    display: inline-block;
+}
+.recommended{
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 40px;
+    width: 144px;
+    height: 33px;
+    margin-top: 71px;
+    margin-bottom: 21px;
+    padding: 5px;
+}
+.title-item-card{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 48px;
+    width: 301px;
+    height: 45px;
+}
+.debit-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    width: 383px;
+    height: 46px;
+    margin-top: 34px;
+    margin-bottom: 32px;
+}
+.item-ac{
+    margin-bottom: 30px;
+}
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border-radius: 50px 50px 50px 50px;
+    width: 155px;
+    height: 51px;
+}
+.footer-soc{
+    background-color: #020016;
+    height: 484px;
+}
+.footer-text{
+width: 254px;
+height: 144px;
+padding-top: 110px;
+}
+.block{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B3B3B3;
+    width: 254px;
+    height: 144px;
+}
+.footer-box{
+    float: right;
+}
+.footer-list{
+    float: left;
+}
+.footer-list-two{
+    float: right;
+}
+.footer-list-three{
+    float: right;
+}
+.about{
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 50px;
+    height: 24px;
+    font-size: 24px;    
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.social{
+    margin-right: 39px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;    
+    line-height: 24px;
+}
+.social-item{
+    margin-bottom: 20px;
+}
+.social-link{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
