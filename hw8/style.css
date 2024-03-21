@@ -1,0 +1,113 @@
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.lexend-deca{
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.most-popular{
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+    border-bottom: 1px solid #F4F4F5;
+    padding: 23px;
+}
+.most-popular__link{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.1px;
+    color: #18181B;
+}
+.grey{
+    color: #71717A;
+}
+.most-popular__span{
+    display: flex;
+    border-bottom: 1px solid #F4F4F5;
+    padding: 16px 95px 16px 32px;
+}
+.most-popular__span_text{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.most-popular__span_text{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.5px;
+}
+.most-popular__row{
+display: flex;
+padding: 16px 32px;
+}
+.most-popular__crypto{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.most-popular__token, 
+.most-popular__price, 
+.most-popular__change, 
+.most-popular__market{
+    flex-grow: 1;
+    flex-basis: 0;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.most-popular__token{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.most-popular__buy{
+    border-radius: 4px;
+    background-color: #9AFD4C;
+    width: 56px;
+    padding: 9px 17px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.1px;
+    color: #01271C;
+}
+.most-popular__box{
+    border-bottom: 1px solid #F4F4F5;
+}
+.green{
+    color: #10B981;
+}
+.red{
+    color: #F43F5E;
+}
+.most-popular__links{
+    display: flex;
+    justify-content: center;
+    padding: 21px 9px;
+}
+.most-popular__messenger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.most-popular__text{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.two{
+margin-left: -8px;
+}
+.three{
+margin-left: -8px;
+}
+.four{
+    margin-left: -9px;
+}
